@@ -2,11 +2,11 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: hbvue
+  name: image-uploader
   namespace: flux-system
 spec:
   interval: 30m0s
-  path: ./kustomize/apps/hbvue
+  path: ./kustomize/apps/image-uploader
   prune: true
   retryInterval: 2m0s
   sourceRef:
