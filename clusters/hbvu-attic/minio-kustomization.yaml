@@ -12,6 +12,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: webapps
-  targetNamespace: minio-system
+  targetNamespace: apps-backend
   timeout: 3m0s
   wait: true
