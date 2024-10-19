@@ -11,7 +11,7 @@ spec:
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: webapps
-  targetNamespace: minio-system
+    name: attic
+  targetNamespace: minio
   timeout: 3m0s
   wait: true

@@ -12,6 +12,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: podinfo
-  targetNamespace: test
+  targetNamespace: tools
   timeout: 3m0s
   wait: true
